@@ -1,4 +1,4 @@
-package com.stone.vuln.java.serialize;
+package com.stone.vuln;
 
 import java.io.IOException;
 import java.io.Serializable;

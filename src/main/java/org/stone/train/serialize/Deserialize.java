@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**
  * @Author: shidonghua
- * @Description: JDK 1.7.0_15下面可以重现漏洞，JDK 1.8.0_121 不可用
+ * @Description: JDK 1.7.0_15下面可以重现漏洞，JDK 1.8.0_121 不可重现（报
  * common-collections 3.2.2 版本修复
  * @Date: 7/10/20 10:45
  * @Version: 1.0
