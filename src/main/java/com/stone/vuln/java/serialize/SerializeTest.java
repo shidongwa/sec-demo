@@ -2,12 +2,10 @@ package com.stone.vuln.java.serialize;
 
 
 import com.stone.vuln.Employee;
-import org.apache.commons.io.IOUtils;
 
 import java.io.*;
 
 public class SerializeTest {
-    public static final String exportData = "/tmp/employee.dat";
 
     public static void main(String[] args) {
         Employee employee = new Employee(1L, "张三");
