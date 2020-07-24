@@ -40,6 +40,7 @@ public class FastJsonTest {
      */
     @Test
     public void test2() {
+        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
         Employee employee = new Employee(1,"牛1");
         System.out.println("employ:" + employee);
 
