@@ -1,9 +1,9 @@
-package com.stone.vuln.json.serialize;
+package org.stone.vuln.json.serialize;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.stone.vuln.Employee;
+import org.stone.vuln.Employee;
 import org.junit.Test;
 
 /**
@@ -15,7 +15,7 @@ import org.junit.Test;
 public class FastJsonTest {
 
 /*    static {
-        ParserConfig.getGlobalInstance().addAccept("com.stone.vuln.Employee");
+        ParserConfig.getGlobalInstance().addAccept("org.stone.vuln.Employee");
     }*/
 
     /**
@@ -36,7 +36,7 @@ public class FastJsonTest {
     }
 
     /**
-     * com.stone.vuln.Employee 加到白名单或者fastjson版本切换到1.2.24及以下
+     * org.stone.vuln.Employee 加到白名单或者fastjson版本切换到1.2.24及以下
      */
     @Test
     public void test2() {

@@ -1,7 +1,7 @@
-package com.stone.vuln.java.serialize;
+package org.stone.vuln.java.serialize;
 
 
-import com.stone.vuln.Employee;
+import org.stone.vuln.Employee;
 
 import java.io.*;
 

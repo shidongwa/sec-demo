@@ -1,4 +1,4 @@
-package org.stone.train.serialize;
+package org.stone.vuln.java.serialize;
 
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;
@@ -16,7 +16,8 @@ import java.util.Map;
 
 /**
  * @Author: shidonghua
- * @Description: JDK 1.7.0_15下面可以重现漏洞，JDK 1.8.0_121 不可重现（报下面异常：
+ * @Description: Java反序列化漏洞POC
+ * JDK 1.7.0_15下面可以重现漏洞，JDK 1.8.0_121 不可重现（报下面异常：
  * Exception in thread "main" java.lang.annotation.IncompleteAnnotationException: java.lang.Override missing element entrySet）
  * common-collections 3.2.2 版本修复
  * @Date: 7/10/20 10:45
